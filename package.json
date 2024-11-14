@@ -1,0 +1,32 @@
+{
+  "name": "strawhatproject",
+  "version": "1.0.0",
+  "description": "Projeto de API mais Graph do bando do chapeu de palha",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanKr4t0s/StrawHatProject.git"
+  },
+  "keywords": [
+    "Straw",
+    "Hat",
+    "Pirates",
+    "Luffy",
+    "One",
+    "Piece"
+  ],
+  "author": "Renan Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenanKr4t0s/StrawHatProject/issues"
+  },
+  "homepage": "https://github.com/RenanKr4t0s/StrawHatProject#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
