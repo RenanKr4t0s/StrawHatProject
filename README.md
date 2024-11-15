@@ -1,4 +1,4 @@
-# Straw Hat Project ![project](https://img.shields.io/badge/andamento%20do%20projeto-1/10-red)
+# Straw Hat Project ![project](https://img.shields.io/badge/andamento%20do%20projeto-3/10-yellow)
 
 
 ![Giohy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2dmeTZlaWxqM3VuOWE3M3V6cDAwbWw2bWo3OXRhd2p5Z2QxbDFwYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nQDKSeRlIyfmw/giphy.gif)
@@ -14,11 +14,11 @@ Parte gráfica e API para entregar e exibir dados básicos dos chapéus de palha
 - [X] Get para Todos os personagens
     - [X] View do EJS
         - [X] ForEach
-        - [ ] Button com Id
-    - [ ] Rota passando params
+        - [X] Button com Id
+    - [X] Rota passando params
 - [X] Get por ID de um personagem
     - [X] View do EJS
-    - [ ] Rota recebendo params
+    - [X] Rota recebendo params
 - [ ] Post => Seja também um chapéu de palha!
     - [ ] View do EJS
     - [ ] Rota passando parametros
