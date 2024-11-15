@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Straw Hat API</title>
+</head>
+<body>
+    <h1>Essa é a Straw Hat Api</h1>
+    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2dmeTZlaWxqM3VuOWE3M3V6cDAwbWw2bWo3OXRhd2p5Z2QxbDFwYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nQDKSeRlIyfmw/giphy.gif" alt="Chapéu de palha do Luffy em preto e branco">
+    <h2>Personagens:</h2>
+    <% characters.forEach(char => { %>
+        <h2><%= char.name %> </h2>
+        <p><%= char.crew %></p>
+        <% if(char.akumanomiUser){ %>
+            <p><%= char.akumanomi %></p>
+        <% } %>
+    <% }); %>
+</body>
+</html>

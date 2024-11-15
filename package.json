@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Projeto de API mais Graph do bando do chapeu de palha",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev":"node --watch index.js"
   },
   "repository": {
     "type": "git",

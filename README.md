@@ -1,23 +1,35 @@
 # Straw Hat Project ![project](https://img.shields.io/badge/andamento%20do%20projeto-1/10-red)
 
+
+![Giohy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2dmeTZlaWxqM3VuOWE3M3V6cDAwbWw2bWo3OXRhd2p5Z2QxbDFwYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nQDKSeRlIyfmw/giphy.gif)
+
 Parte gráfica e API para entregar e exibir dados básicos dos chapéus de palha.
 
 ## MVP API
-- [ ] Get com todos os personagens
-- [ ] Get com personagem por ID
+- [X] Array de personagens
+- [X] Get com todos os personagens
+- [X] Get com personagem por ID
 
 ## MVP GRAPHIC  
-- [ ] Get para Todos os personagens
-    - [ ] View do EJS
-        - [ ] ForEach
+- [X] Get para Todos os personagens
+    - [X] View do EJS
+        - [X] ForEach
         - [ ] Button com Id
     - [ ] Rota passando params
-- [ ] Get por ID de um personagem
-    - [ ] View do EJS
+- [X] Get por ID de um personagem
+    - [X] View do EJS
     - [ ] Rota recebendo params
 - [ ] Post => Seja também um chapéu de palha!
     - [ ] View do EJS
     - [ ] Rota passando parametros
+
+## Para Por no ar.
+- [ ] Local para fazer deploy?
+- [ ] Instruções para instalar o projeto
+
+## Futura V2
+- [ ] Seja um chapeu de palha, local storage?
+
 # We Go!!
 
 ### Fale com Renan
