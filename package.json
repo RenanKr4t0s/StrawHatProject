@@ -6,7 +6,7 @@
   "type":"module",
   "scripts": {
     "test": "test",
-    "dev":"node --watch src/index.js"
+    "dev":"node --watch index.js"
   },
   "repository": {
     "type": "git",
