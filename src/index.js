@@ -1,7 +1,7 @@
 import express from 'express'
 import ejs from "ejs"
 
-import characters from './assets/characters.js';
+import characters from '../assets/characters.js';
 
 const app = express();
 const PORT = 4000
