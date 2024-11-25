@@ -4,7 +4,7 @@ import ejs from "ejs"
 import characters from '../assets/characters.js';
 
 const app = express();
-const PORT = process.env.PORT ?? 3000
+const PORT = process.env.PORT ?? 4000
 
 app.set('view engine', 'ejs')
 
@@ -36,6 +36,10 @@ app.get("/char/:id", (req,res)=>{
     }
 })
 
+
+
 app.listen(PORT, ()=>{
     console.log("Straw Hat Project na porta "+PORT)
 })
+
+export default app;
