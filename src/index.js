@@ -4,7 +4,7 @@ import ejs from "ejs"
 import characters from '../assets/characters.js';
 
 const app = express();
-const PORT = 4000
+const PORT = process.env.PORT || 3000
 
 app.set('view engine', 'ejs')
 
