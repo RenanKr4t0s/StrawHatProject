@@ -1,5 +1,6 @@
 import express from 'express'
 import ejs from "ejs"
+import path from "path"
 
 import characters from './assets/characters.js';
 
@@ -21,9 +22,14 @@ app.get("/api/:id", (req,res)=>{
         res.status(404).send(`Personagem não encontrado, informação "${id}" incorreta`)
     }
 })
+//HTML Base
+app.get("/",(req,res)=>{
+    res.status(200).sendFile(path.resolve('./htmlPages/instructions.html'))
+})
+
 
 //Graphic CRUD
-app.get("/",(req, res)=>{
+app.get("/all",(req, res)=>{
     res.status(200).render('allChar', {characters:characters})
 })
 app.get("/char/:id", (req,res)=>{
