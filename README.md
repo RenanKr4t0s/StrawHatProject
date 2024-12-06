@@ -1,40 +1,106 @@
-# Straw Hat Project ![project](https://img.shields.io/badge/andamento%20do%20projeto-3/10-yellow)
+# 🏴‍☠️ One Piece Straw Hat Crew API 🏴‍☠️  
 
+Ahoy, navegantes do mundo de One Piece! 🚢🌊  
 
-![Giohy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2dmeTZlaWxqM3VuOWE3M3V6cDAwbWw2bWo3OXRhd2p5Z2QxbDFwYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nQDKSeRlIyfmw/giphy.gif)
+Esta é uma API totalmente descontraída e temática para você acessar informações sobre o **Bando do Chapéu de Palha**! Se você é fã do Rei dos Piratas e quer se divertir explorando dados sobre os personagens, você está no lugar certo! 🏴‍☠️✨  
 
-Parte gráfica e API para entregar e exibir dados básicos dos chapéus de palha.
+---
 
-## MVP API
-- [X] Array de personagens
-- [X] Get com todos os personagens
-- [X] Get com personagem por ID
+## 🚀 **Rotas disponíveis**  
 
-## MVP GRAPHIC  
-- [X] Get para Todos os personagens
-    - [X] View do EJS
-        - [X] ForEach
-        - [X] Button com Id
-    - [X] Rota passando params
-- [X] Get por ID de um personagem
-    - [X] View do EJS
-    - [X] Rota recebendo params
-- [ ] Post => Seja também um chapéu de palha!
-    - [ ] View do EJS
-    - [ ] Rota passando parametros
+### 🔍 **1. API de dados em JSON**  
 
-## Para Por no ar.
-- [ ] Local para fazer deploy?
-- [ ] Instruções para instalar o projeto
+- **Obter todos os personagens**  
+  `GET /api`  
+  Responde com uma lista completa de todos os membros do bando.  
 
-## Futura V2
-- [ ] Seja um chapeu de palha, local storage?
+  Exemplo de resposta:  
+  ```json
+  [
+    {
+        "id":"STR00",
+        "imgUrl":"https://i.giphy.com/media/v1...",
+        "name":"Monkey D. Luffy",
+        "crew":"Chapéus de Palha",
+        "akumanomiUser":true,
+        "akumanomi":"gomo-gomo nomi"
+    },
+    {
+        "id":"STR01",
+        "imgUrl":"https://i.giphy.com/media/v1...",
+        "name":"Roronoa Zoro",
+        "crew":"Chapéus de Palha",
+        "akumanomiUser":false
+    },
+    {
+        //... Muito mais Chapéus de Palha
+    }
+  ]
+- **Buscar personagem específico**  
+  `GET /api/:id`  
+  Substitua `:id` pelo ID do personagem para obter informações detalhadas.  
 
-# We Go!!
+  **Respostas:**  
+  - Sucesso: Detalhes do personagem, como:
+  ```json
+  {
+    "id":"STR00",
+    "imgUrl":"https://i.giphy.com/media/v1...",
+    "name":"Monkey D. Luffy",
+    "crew":"Chapéus de Palha",
+    "akumanomiUser":true,
+    "akumanomi":"gomo-gomo nomi"
+   }
+  ```
+  - Erro: `404 - Personagem não encontrado, informação ":id" incorreta.`  
 
-### Fale com Renan
-[![whats](https://img.shields.io/badge/WhatsApp-5511957916485?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=5511957916485&text=%20Ol%C3%A1%20Renan.%20Gostaria%20de%20falar%20com%20você.%20Contactando%20pelo%20GitHub!)
-[![website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://www.renandevramos.com.br)
-[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/renan_r.dev.r)
-[![email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev@renandevramos.com?Subject=Contato_RdevR)
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/renan-ramos-da-silva-05637118b/)
+### 🖥️ **2. Versão visual em HTML (Rodando Somente Local)**  
+
+- **Instruções básicas**  
+  `GET /`  
+  Exibe uma página inicial com as instruções para usar a API.  
+
+- **Lista de todos os personagens (versão gráfica)**  
+  `GET /all`  
+  Renderiza uma página HTML com uma tabela/lista contendo todos os membros do bando.  
+
+- **Detalhes de um personagem específico (versão gráfica)**  
+  `GET /char/:id`  
+  Renderiza uma página HTML com os detalhes de um personagem específico.  
+
+---
+
+## 🎯 **Como rodar o projeto?**  
+
+1. Clone este repositório:  
+   ```bash
+   git clone https://github.com/RenanKr4t0s/StrawHatProject
+
+2. Instale as dependências:
+
+    ```bash
+    npm install
+    ```
+
+3. Instalar o EJS com NPM
+
+    ```bash
+    npm install ejs --save
+    ```
+    O comando --save adiciona a dependência no arquivo package.json.
+
+4. Execute o servidor:
+
+    ```bash
+    npm start
+    ```
+5. Acesse a API pelo navegador ou ferramentas como Postman/Insomnia!
+
+---
+
+# 🏴‍☠️ Inspirado por One Piece 🏴‍☠️
+
+- 🌟 “Se o tesouro que você procura é o conhecimento, então o mundo inteiro é seu One Piece.” 👒
+- 📜 APIs são como mapas: siga as rotas para encontrar o tesouro! 🍊
+
+### Agora vá em frente e aproveite a aventura! 🌊⛵

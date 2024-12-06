@@ -4,11 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Straw Hat API</title>
+    <!-- Bootstrap CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c2e9d59-ee54-490e-bf96-5497f587844f/dgctbqh-5901ad2a-f5c8-47a1-a7b4-d286ff470f0f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljMmU5ZDU5LWVlNTQtNDkwZS1iZjk2LTU0OTdmNTg3ODQ0ZlwvZGdjdGJxaC01OTAxYWQyYS1mNWM4LTQ3YTEtYTdiNC1kMjg2ZmY0NzBmMGYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Xy1jnN4If3AVrhdWhHHz7Ueiq76fBA-guAZnbZW0jzk');
+            background-size: cover;
+            background-position: center;
+        }
+        .content {
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2dmeTZlaWxqM3VuOWE3M3V6cDAwbWw2bWo3OXRhd2p5Z2QxbDFwYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nQDKSeRlIyfmw/giphy.gif" alt="Chapéu de palha do Luffy em preto e branco">
-    <h1>Bem vindo a API dos chapéus de palha!</h1>
-    <p>Vamos começar pegando todo o nosso bando!</p>
-    <a href="./api">Receber o Bando todo!</a>
+    <div class="container-fluid d-flex align-items-center">
+        <div class="row w-100 vh-100">
+            <div class="col-12 col-md-6 d-flex opacity-75 flex-column justify-content-center content bg-light border rounded m-3 py-3 shadow-lg">
+                <h1 class="display-8">🏴‍☠️ API StrawHatProject! 🏴‍☠️</h1>
+                <p class="lead mx-5">Explore o mundo de One Piece com rotas incríveis e descubra tudo sobre o bando mais pirata dos mares! 🌊✨</p>
+                <div>
+                    <h3>🚀 Rotas disponíveis</h3>
+                      <ul class="list-group mx-5">
+                        <li class="list-group-item active"><span class="badge text-bg-warning">GET /</span> --- Página de instruções</li>
+                        <li class="list-group-item"><a class="badge text-bg-primary" href="./api">GET /api</a> --- Obter todos os personagens</li>
+                        <li class="list-group-item"><a class="badge text-bg-primary" href="./api/STR00">GET /api/:id</a> --- Buscar personagem específico</li>
+                        <li class="list-group-item"><span class="badge text-bg-secondary">GET /all</span> --- Lista de todos os personagens <span class="badge text-bg-info">(Instalação Local)</span></li>
+                        <li class="list-group-item"><span class="badge text-bg-secondary">GET /char/:id</span> --- Detalhes de um personagem <span class="badge text-bg-info">(Instalação Local)</span></li>
+                    </ul>
+                </div>
+                <div class="mt-2">
+                    <h3>🎯 Como rodar o projeto?</h3>
+                    <ol class="list-group list-group-flush list-group-numbered mx-5">
+                        <li class="list-group-item">Clone o repositório:</br>
+                             <code>git clone https://github.com/RenanKr4t0s/StrawHatProject</code></li>    
+                        <li class="list-group-item">Instale as dependências: <code>npm install</code></li>
+                        <li class="list-group-item">Execute o servidor: <code>npm start</code></li>
+                    </ol>
+                </div>
+                <div class="gif-container d-flex justify-content-end m-2">
+                    <a href="https://github.com/RenanKr4t0s/StrawHatProject" class="btn btn-primary opacity-100" target="_blank">
+                        Visite nosso repositório
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-4"></div>>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -45,7 +45,7 @@ app.get("/char/:id", (req,res)=>{
 
 
 app.listen(PORT, ()=>{
-    console.log("Straw Hat Project na porta "+PORT)
+    console.log("Straw Hat API na porta "+PORT)
 })
 
 export default app;
