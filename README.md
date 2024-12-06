@@ -4,6 +4,8 @@ Ahoy, navegantes do mundo de One Piece! 🚢🌊
 
 Esta é uma API totalmente descontraída e temática para você acessar informações sobre o **Bando do Chapéu de Palha**! Se você é fã do Rei dos Piratas e quer se divertir explorando dados sobre os personagens, você está no lugar certo! 🏴‍☠️✨  
 
+### [🏴‍☠️ Visite a Página da API 🏴‍☠️](https://straw-hat-project-git-main-r-dev-r-projects.vercel.app/)
+
 ---
 
 ## 🚀 **Rotas disponíveis**  
