@@ -20,19 +20,36 @@ Esta é uma API totalmente descontraída e temática para você acessar informa�
   ```json
   [
     {
-        "id":"STR00",
-        "imgUrl":"https://i.giphy.com/media/v1...",
-        "name":"Monkey D. Luffy",
-        "crew":"Chapéus de Palha",
-        "akumanomiUser":true,
-        "akumanomi":"gomo-gomo nomi"
+        "id": "STR00",
+        "imgUrl": "https://i.giphy.com/media/v1.../giphy.gif",
+        "name": "Monkey D. Luffy",
+        "nickname": "Luffy",
+        "crew": "Chapéus de Palha",
+        "position": "Capitão",
+        "specialSkill": "Elasticidade extrema",
+        "dream": "Se tornar o Rei dos Piratas",
+        "reward": "3000000000",
+        "food": "Carne",
+        "phrase": "Eu vou ser o Rei dos Piratas!",
+        "birthday": "05/05",
+        "akumanomiUser": true,
+        "akumanomi": "Gomu Gomu no Mi / Hito Hito no Mi, Model: Nika"
     },
     {
-        "id":"STR01",
+        "id":"STR99",
         "imgUrl":"https://i.giphy.com/media/v1...",
-        "name":"Roronoa Zoro",
+        "name":"Renan Ramos",
+        "nickname": "Kr4t0s",
         "crew":"Chapéus de Palha",
-        "akumanomiUser":false
+        "position": "Fan",
+        "specialSkill": "CodarJS",
+        "dream": "Se tornar o pirata mais programador do mundo",
+        "reward": "606198800",
+        "food": "Outback",
+        "phrase": "É melhor morrer do que perder a vida!",
+        "birthday": "06/06",
+        "akumanomiUser": true,
+        "akumanomi": "kode kode no Mi"
     },
     {
         //... Muito mais Chapéus de Palha
@@ -45,14 +62,22 @@ Esta é uma API totalmente descontraída e temática para você acessar informa�
   **Respostas:**  
   - Sucesso: Detalhes do personagem, como:
   ```json
-  {
-    "id":"STR00",
-    "imgUrl":"https://i.giphy.com/media/v1...",
-    "name":"Monkey D. Luffy",
-    "crew":"Chapéus de Palha",
-    "akumanomiUser":true,
-    "akumanomi":"gomo-gomo nomi"
-   }
+   {
+      "id": "SRV00",
+      "imgUrl": "https://i.giphy.com/media/v1.Y2l/3MMX1wnHnz8BE/giphy.gif",
+      "name": "Shanks",
+      "nickname": "Ruivo",
+      "crew": "Piratas do Ruivo",
+      "position": "Capitão",
+      "specialSkill": "Haki do Rei e Espadachim habilidoso",
+      "dream": "Proteger os amigos e manter a paz no mar",
+      "reward": "4000000000",
+      "food": "Carne",
+      "phrase": "Eu não luto por dinheiro, eu luto por aquilo que vale a pena!",
+      "birthday": "09/03",
+      "akumanomiUser": false,
+      "akumanomi": null
+   },
   ```
   - Erro: `404 - Personagem não encontrado, informação ":id" incorreta.`  
 
