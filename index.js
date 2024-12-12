@@ -22,6 +22,24 @@ app.get("/api/:id", (req,res)=>{
         res.status(404).send(`Personagem não encontrado, informação "${id}" incorreta`)
     }
 })
+app.post("/api/create",(req,res)=>{
+    const {id, imgUrl, name, nickname,
+            crew, position, specialSkill, 
+            dream, reward, food, phrase, birthday,
+            akumanomiUser, akumanomi}
+    = req.body;
+
+    const newCharacter = {id, imgUrl, name, nickname,
+        crew, position, specialSkill, 
+        dream, reward, food, phrase, birthday,
+        akumanomiUser, akumanomi}
+
+    characters.push(newCharacter);
+
+    res.status(201).json({message:`personagen ${name} adicionado com sucesso!`})
+})
+
+
 //HTML Base
 app.get("/",(req,res)=>{
     res.status(200).sendFile(path.resolve('./htmlPages/instructions.html'))

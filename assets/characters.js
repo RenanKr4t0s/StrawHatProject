@@ -41,7 +41,7 @@ const characters = [
         "specialSkill": "Manipulação do clima",
         "dream": "Mapear o mundo inteiro",
         "reward": "366000000",
-        "food": "Tanjerinas",
+        "food": "Tangerinas",
         "phrase": "O dinheiro vem primeiro!",
         "birthday": "03/07",
         "akumanomiUser": false,
@@ -65,7 +65,7 @@ const characters = [
     },
     {
        
-        "id": "STR05",
+        "id": "STR04",
         "imgUrl": "https://i.giphy.com/media/v1.Y2l/3MMX1wnHnz8BE/sanji/giphy.gif",
         "name": "Vinsmoke Sanji",
         "nickname": "Perna Negra",
@@ -81,7 +81,7 @@ const characters = [
         "akumanomi": null
     },
     {
-        "id": "STR06",
+        "id": "STR05",
         "imgUrl": "https://i.giphy.com/media/v1.Y2l/3MMX1wnHnz8BE/giphy.gif",
         "name": "Tony Tony Chopper",
         "nickname": "Chopper",
@@ -97,7 +97,7 @@ const characters = [
         "akumanomi": "Hito Hito no Mi"
     },
     {
-        "id": "STR07",
+        "id": "STR06",
         "imgUrl": "https://i.giphy.com/media/v1.Y2l/3MMX1wnHnz8BE/giphy.gif",
         "name": "Nico Robin",
         "nickname": "Robin",
@@ -113,7 +113,7 @@ const characters = [
         "akumanomi": "Hana Hana no Mi"
     },
     {
-        "id": "STR08",
+        "id": "STR07",
         "imgUrl": "https://i.giphy.com/media/v1.Y2l/3MMX1wnHnz8BE/franky/giphy.gif",
         "name": "Franky",
         "nickname": "Franky",
@@ -129,7 +129,7 @@ const characters = [
         "akumanomi": null
     },
     {
-        "id": "STR09",
+        "id": "STR08",
         "imgUrl": "https://i.giphy.com/media/v1.Y2l/3MMX1wnHnz8BE/giphy.gif",
         "name": "Brook",
         "nickname": "Brook",
@@ -145,7 +145,7 @@ const characters = [
         "akumanomi": "Yomi Yomi no Mi"
     },
     {
-        "id": "STR10",
+        "id": "STR09",
         "imgUrl": "https://i.giphy.com/media/v1.Y2l/3MMX1wnHnz8BE/giphy.gif",
         "name": "Jinbe",
         "nickname": "Jinbe",

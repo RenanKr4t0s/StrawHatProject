@@ -1,4 +1,7 @@
-# 🏴‍☠️ One Piece Straw Hat Crew API 🏴‍☠️  
+# 🏴‍☠️ Straw Hat Project 🏴‍☠️
+![project](https://img.shields.io/badge/andamento%20do%20projeto-4/10-yellow)
+
+![Giohy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2dmeTZlaWxqM3VuOWE3M3V6cDAwbWw2bWo3OXRhd2p5Z2QxbDFwYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nQDKSeRlIyfmw/giphy.gif)
 
 Ahoy, navegantes do mundo de One Piece! 🚢🌊  
 
@@ -131,3 +134,12 @@ Esta é uma API totalmente descontraída e temática para você acessar informa�
 - 📜 APIs são como mapas: siga as rotas para encontrar o tesouro! 🍊
 
 ### Agora vá em frente e aproveite a aventura! 🌊⛵
+
+
+
+### Fale com Renan:
+[![whats](https://img.shields.io/badge/WhatsApp-5511957916485?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=5511957916485&text=%20Ol%C3%A1%20Renan.%20Gostaria%20de%20falar%20com%20você.%20Contactando%20pelo%20GitHub!)
+[![website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://www.renandevramos.com.br)
+[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/renan_r.dev.r)
+[![email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev@renandevramos.com?Subject=Contato_RdevR)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/renan-ramos-da-silva-05637118b/)
